@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "MATH/Discrete/What-Is-Discrete-Math.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -170,7 +170,9 @@
   },
   "active": "e492fa80d8ce8070",
   "lastOpenFiles": [
+    "Proof.md",
     "MATH/Discrete/What-Is-Discrete-Math.md",
+    "MATH/PDFs/LV1-Discrete-Math/1-Discrete-Math-Applications.pdf",
     "Logic.md"
   ]
 }
