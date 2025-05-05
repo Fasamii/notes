@@ -1,0 +1,21 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "geometry": 1,
+    "elements": 2,
+    "history": 3,
+    "rules": 4,
+    "logic": 5,
+    "discrete": 6
+  },
+  "_version": 3
+}
