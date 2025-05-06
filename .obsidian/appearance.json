@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "fira code",
+  "textFontFamily": "fira code",
+  "monospaceFontFamily": "fira code"
 }
