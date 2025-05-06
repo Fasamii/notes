@@ -48,7 +48,7 @@
       {
         "id": "6f65189be53a03d8",
         "type": "tabs",
-        "dimension": 77.18446601941748,
+        "dimension": 72.99703264094956,
         "children": [
           {
             "id": "09bf8dab4c254a05",
@@ -95,7 +95,7 @@
       {
         "id": "8cfee8a36a574109",
         "type": "tabs",
-        "dimension": 22.815533980582522,
+        "dimension": 27.002967359050444,
         "children": [
           {
             "id": "e10e3c772fba9eee",
@@ -212,8 +212,10 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "09bf8dab4c254a05",
+  "active": "ace6dd6b9353102c",
   "lastOpenFiles": [
+    "MATH/Discrete/What-Is-Discrete-Math.md",
+    "MATH/Discrete/Discrete-Structures/Sets.md",
     "PDFs/MATH/LV9-Analysis/2-Analysis-2-Tao.pdf",
     "PDFs/MATH/LV9-Analysis/1-Analysis-1-Tao.pdf",
     "PDFs/MATH/LV9-Analysis",
@@ -224,10 +226,7 @@
     "PDFs/MATH/LV7-Statistics",
     "PDFs/MATH/LV6-Linear-Algebra/2-Linear-Algebra.pdf",
     "PDFs/MATH/LV6-Linear-Algebra/1-Elementary-Linear-Algebra.pdf",
-    "PDFs/MATH/LV6-Linear-Algebra",
-    "MATH/Discrete/Discrete-Structures/Sets.md",
     "MATH/Discrete/Discrete-Structures/What-are-Discrete-Structures.md",
-    "MATH/Discrete/What-Is-Discrete-Math.md",
     "MATH/What-is-Math.md",
     "MATH/Discrete/Structures.md",
     "Logic.md",
