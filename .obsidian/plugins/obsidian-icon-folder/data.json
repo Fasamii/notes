@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBoxes",
       "LiCpu",
       "LiListTodo",
       "FabRust",
@@ -14,8 +15,7 @@
       "TiBaselineDensitySmall",
       "TiList",
       "FarFilePdf",
-      "FasFilePdf",
-      "LiMoreVertical"
+      "FasFilePdf"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -41,8 +41,6 @@
   },
   "ASM": "LiCpu",
   "MATH": "LiCalculator",
-  "PDFs": "FarFilePdf",
-  "TODO": "LiListTodo",
-  "rust-notes": "SiRust",
-  "asm-notes": "LiCpu"
+  "RUST": "SiRust",
+  "Resources": "LiBoxes"
 }
