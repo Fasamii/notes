@@ -1,0 +1,14 @@
+high level programing languages relies on if if-else and else statments. To do that in asm you have to use jump instruction to jump to another
+section of the program with te use of jump you can make several branches that help in managing the program workflow
+
+first we must compare some values using the cmpl instruction
+this instruction saves output in special %eflags register
+
+there is multiple jump instruction based on cmpl outcome:
+	
+	- je - jump if vals are equal
+	- jg - jump if the second value is greater
+	- jge - jump if second value is greater than or equal to the first
+	- jl - jump if the second val is less than the first
+	- jle - jump if second val is less or equal to first
+	- jmp - jump no mater what

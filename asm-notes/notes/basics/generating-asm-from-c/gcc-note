@@ -1,0 +1,4 @@
+to compile c code into asm use gcc with flag -S
+you also have to include architecture 32/64 bit's with -m flag
+e.g.:
+	gcc -S -m32 ...

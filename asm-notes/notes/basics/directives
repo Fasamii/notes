@@ -1,0 +1,67 @@
+Directives - are special instructionns that provide information to the assembler about how to process the program but don't
+directly translate into machine code instructions
+the diffrence betwen instructionns like mov or add is that these doens't translate to machine code but guide the assembly process
+
+Directives can control:
+
+	- How the assembler allocates memory
+	- How it definies symbols
+	- which CPU mode to use
+	- And man other aspects of program generation
+
+Common Directive categories:
+
+	- Section Directives -> these organise you code into logical sections
+	e.g.: section .text		; code section
+		  section .data		; initialized data section
+		  section .bss		; uninitialized data section
+
+	- Symbol Declaration Directives -> these make symbols accesible to other modules or define symbols
+	e.g.: global _start		; Make _start visible to the linker
+		  exter printf		; Declare that printf is definied elsewhere
+
+	- Memory Allocation Directives -> These reserve memory withou initializing it
+	e.g.: resb n 			; reserve n bytes
+		  resw n			; reserve n words (2 * n bytes)
+		  resd n			; reserve n doublewords (4 * n bytes)
+		  resq n 			; reserve n quadwords (8 * n bytes)
+	ee.g.: buffer resb 1024 ; reserve 1024 bytes of uninitialized memory
+
+	- Asembly Control Directives -> These affect how the assemvler processes code
+	e.g.: bits 16/32/64		; Specify the prcessor mode (16-bit, 32-bit, 64-bit)
+		  org addres		; Specify the origin address for the code
+		  align value		; align the next data/code to a specified boundry 
+	ee.g.: bits 64			; Tell the assembler we're writing 64-bit code
+		   org 0x7C00		; Tell the assembler our code will be loadet at addres 0x7C00
+
+	- Include Directives -> these include code from other files
+	e.g.: %include "filename"
+	ee.g.: %include "io.asm"
+
+The Underscore Convention(_) -> the underscore prefix convention like _start is not a fundamental requirment of directives themself
+but releated to symbol naming
+
+	1. Directives don't have underscores -> (e.g.: section, global, db) doenst start with _
+	
+	2. symbols often have underscore -> the names we give to memory locations, functions, etc. (symbols) often use underscores
+
+	3. Platform specufic conventions -> in Linux the name of standart entry point is _start with underscore
+
+assembler specific Directives -> Diffrent assemblers support diffrent Directive sets
+
+	1. NASM uses directives like:
+		- global
+		- extern
+		- section
+		- bits
+	
+	2. MASM uses directives like:
+		- .MODEL
+		- .CODE
+		- .DATA
+		- .PUBLIC
+
+	3. GAS uses directives like:
+		- .text
+		- .data
+		- .global

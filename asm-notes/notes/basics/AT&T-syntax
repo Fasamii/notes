@@ -1,0 +1,41 @@
+GNU AS (GAS) - accepts both AT&T and Intel syntax
+	GAS instructions generally have the form 
+		[mnemonic source, destination]
+		e.g.:
+			movb $0x05, %al
+			this will move the hexadecimal value 5 into the register al
+
+Operation Suffixes
+	GAS assembly instructions are generally fuffixed with the letters "b", "s", "w", "q", "t" to determine what size operand is being manipulated
+		- b - byte (8-bit)
+		- s - single (32-bit floating point)
+		- w - word (16-bit)
+		- l - long (32-bit inteager or 64-bit floating point)
+		- q - quat (64-bit)
+		- t - ten bytes (80-bit floating point)
+
+		If the suffix is not specified, and there are no memory operands for the instruction, GAS infers the operant size from the size of the destination register operand (the final operand)
+
+Prefixes
+	When referencing a register, the register needs to be prefixed with a "%".
+	Constant numbers need to be prefixed with a "$".
+
+Address operand syntax
+	There are up to 4 parameters of an address operand that are presented in the syntax 
+		segment:displacment(base register, index register, scale factor).
+		which is equiv to segment:[base register + displacment + index register * scale factor] in Intel syntax
+
+Introduction to GAS
+	GAS is part of GNU project which gives it the following nice properties
+		- it is available on many operating systems
+		- it intefaces nicely with the other GNU programming tools including gcc and ld
+	on computers with linux (I use Arch BTW) you probably have GAS preinstaled
+
+Generating assembly
+	Since assembly coresponds 1:1 to the operations a CPU performs, it can be much faster than the same routine writen in high
+	level programming language such as C. But assembly routines tekes more effort to write.
+	You can also use gcc to generate assembly so you can see to what your code compiled
+	to do so use 
+		$ gcc -S -m32 hello.c
+
+

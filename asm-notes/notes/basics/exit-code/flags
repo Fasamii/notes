@@ -1,0 +1,6 @@
+for gas flags are
+	-32 <- to indicade 32-bit program
+	-o <- exit name
+
+for ld flags are
+	-m elf_i386 <- to indicade 32-bit program

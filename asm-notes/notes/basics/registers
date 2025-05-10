@@ -1,0 +1,38 @@
+x86 architecture has 8 General purpose registers, 6 segment registers, 1 flag register and an instruction pinter (640-bit x86 has additional registers)
+I will reffer to general purpose reginsters as (GPR's)
+The 8 GPR's are as follows:
+	1. Accumuator register (AX). Used in arithmetic operations -> Opcodes comining constats into accumulator are 1-byte
+	2. Base register (BX). Used as a pointer to data (located in segment register DS, when in segment mode)
+	3. Counter register (CX). Used in shift/rotate instructions and loops
+
+	4. Stack pointer register (SP). Pointer to the top of the stack.
+	5. Stack base pointer register (BP). Uset to point to the base of stack
+
+	6. Destination index register (DI). Used as a pointer to a destionation in stream operations.
+	7. Source index register (SI). Used as a pinter to a source in stream operations
+
+	8. Data register (DX). Used in arithmetic operations and I/O operations
+
+	(!! The order isn't random. it is the same order that is used in a push-to-stack operation which will be covered later !!)
+
+all register can be accesed in 16 and 32 bit modes
+	- in 16 bit mode registers are reffered to as thier 2 letter abbreviation.
+	- in 32 bit mode registers abbreviations are prefixed with E (for extended) so e.g.: (BP) becomes (EBP).
+	- in 64 bit mode registers abbreviation are prefixed with R (for register) so e.g.: (BP) becomes (RBP)
+
+
+Evry CPU has general purpose registers and some special registers e.g.:
+	- x86_32-bit CPU has:
+		- General purpose registers such as:
+			- %eax
+			- %ebx
+			- %ecx
+			- %edi
+			- %esi
+		- And some special purpose registers:
+			- %ebp <- base pointer register
+			- %esp <- stack pointer register
+			- %eip <- instruction pointer register
+			- %eflags <- status register
+
+		!! Depending on architecture each register can hold 32-bit data for 32-bit CPU and 64-bit for 64-bit CPU

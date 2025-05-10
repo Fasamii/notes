@@ -1,0 +1,97 @@
+asm is the lowest level possible programing language it is translated into binary insturctions directly
+typicaly one asm instruction is translated into on binary instruction
+
+asembly isn't one programing language but family of languages each specific to a particular CPU architecture
+the most common architecture's are:
+- x86 and x86_64 (for most desktop and server computers)
+- ARM (for mobile devices and incresingly for computer)
+- RISC-V (an open-source architecture gaining popularity)
+
+
+ASM lang syntax varies betwen architecture's but most share the common element's
+
+1. Basic structure
+	[label:] [instruction] [operands] [;comment]
+	- lablel -> names for memory locations used as targets for jumps/branches
+  - instruction -> the operation to perform (e.g.: mov, add, jmp)
+  - operands -> what the instruction acts upon (registers, memory addresses, constants)
+  - comments -> human readable notes (starting with ; or #) depends on architecture
+
+2. Syntax variations
+  asm lang syntax falls into two conventions:
+
+  - Intel Syntax (commonly used with x86)
+  instruction destination, source ; comment
+  e.g.: mov eax, 42 ; put the value 42 into EAX register
+
+  - AT&T Syntax (common in Unix systems)
+  instruction source, destination # comment
+  e.g.: mov $42, %eax # put the value 42 into EAX register
+
+  !Notice that AT&T prefixes registers with "%" and values with "$"
+
+
+Core asembly concepts
+
+1. Registers
+registers are small, high-speed storeage locations build directly into the processor. They.re used for
+  - storing intermediate computation results
+  - holding memory addresses
+  - special purpouses (like the instruction pointer)
+Diffrent architecture's have diffrent registers sets. For example:
+  - x86_64 has registers like - RAX, RBX, RCX, etc.
+  - while ARM has registers   - R0, R1, R2, etc.
+
+2. Memory addresing
+  asm lets you access memory in various ways:
+
+  - Intermediate addressing: using const val directly
+	e.g.: mov $42, %eax # put the literal value 42 into EAX
+
+  - Register addressing: accessing a specific memory location
+  e.g.: mov %eax, %ebx # copy the calue from EAX to EBX 
+
+  - Direct addressing: accessing a specyfic memory location
+  TODO: convert into AT&T syntax
+  e.g.: mov eax, [0x1000] # load value from memory addres 0x1000 into EAX register
+
+  - Indirect addressing: Using a register to hold the memory address
+	TODO: convert it into AT&T syntax
+  e.g.: mov eax, [ebx] ; load the calue at the address stored in EBX into EAX
+
+  - Base plus offset: Adding an offset to a base address
+  TODO: convert into AT&T syntax
+  mov eax, [ebx+8] ; load from the memory address: value in EBX plus 8 bytes
+
+
+Data Directives: asm programs use directives to define data storage:
+
+e.g.:
+  section .data
+  	message db "Hello, world!", 0	; define a null-terminated string
+  	number dd 42					; define a 32-bit inteager
+
+  common data directives include:
+  - db -> (define byte) 8-bit values
+  - dw -> (define word) 16-bit values	
+  - dd -> (define doubleword) 32-bit values
+  - dq -> (define quadword) 64-bit values
+
+
+Sections: asm are typicaly divided into sections:
+  - .text -> contains executable code
+  - .data -> contains initialized data
+  - .bss -> contains initialized data
+  and depending on the assembler e.g.: .rodata (read only data)
+
+
+System calls: to interact with the operating system asm programs use system calls (these depends on the Operating system)
+
+  - Linux -> you put the system call number in RAX, arguments in specific registers and use syscall instruction
+  - Windows -> you typicaly use Win32 API via call instruction to library functions
+
+
+Assemblers and Tools: to work with asembly you need:
+  - an assembler -> converts asm code to machine code (e.g.: NASM, MASM, or GAS)
+  - a linker -> combines multiple obiect files into an executable
+  - a debugger -> helps inspect registers and memory state during execution (like GDB)

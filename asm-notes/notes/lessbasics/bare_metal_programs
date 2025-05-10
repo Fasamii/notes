@@ -1,0 +1,28 @@
+The Bare Metal Environment
+
+	in normal application development, you program runs within an operating system that provides services, manages memory, and handles the
+	initial loading of you program however if you are writing program wich will run on bare metal withou operating system these services
+	doenst exist there is no program loader, services or memory managment
+
+	To underseadn mor how program without operating system works lets dive into booting process
+		1. Power-on & Self Test - the computer hardware initializes and checks itself
+		2. BIOS/UEFI Execution - The firmware stored in a ROM chip takes control
+		3. Boot Device Selection - The firmware indentifies bootable devices according to the configuret boot order
+		4. Bootloader Loading - The firmware reads the very first sector called "Boot Sector" (or "Master Boot Recordo" in Bios) from boot
+								device into memory
+		5. Bootloader Execution - The firmware jumps to a predeterminded memory address (typicayl 0x7C00 for BIOS)
+
+	Note that there's no operating system involved in this process yet - the firmware directry loads your code and jumps to it at a
+	predeterminded address. This is completly diffrent from how normal programs start
+
+	So why no global _start is needed - in this bare metal context there are several reasnons why directives like global _start aren't
+	necessary:
+
+		1. no linker - since there's no operating system loader involved there's often no traditional linkin process. e.g.: Bootloader
+			code might be assembled directly to binary fromat rather that obiect file that need's linking
+
+		2. Fixed Entry Points - The entry point is determinded by hardware specifications, not by symbols in your code. For BIOS botting
+			execution start at the beginning of you code loaded at address 0x7C00. For UEFI, there's a specific point function signature
+			required
+
+		3. No symbol resolution - Theres no external entity lookin for symbols like _start to determine where to begin execution
