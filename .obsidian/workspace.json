@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "90a53b5b6d2dc45e",
+        "id": "2e7c547a8e87e200",
         "type": "tabs",
         "children": [
           {
-            "id": "68415e5ed75eb28c",
+            "id": "94d92f997f8fd158",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH/Discrete/What-Is-Discrete-Math.md",
+                "file": "TODO/web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What-Is-Discrete-Math"
-            }
-          },
-          {
-            "id": "ace6dd6b9353102c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MATH/Discrete/Discrete-Structures/Sets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sets"
+              "title": "web"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +102,8 @@
               "title": "Global 3D Graph"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,20 +198,22 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "ace6dd6b9353102c",
+  "active": "09bf8dab4c254a05",
   "lastOpenFiles": [
-    "MATH/Discrete/What-Is-Discrete-Math.md",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_c_1/mod.rs",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_c_1/nest_c_2.rs",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_b_1/nest_b_2.rs",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_b_1/mod.rs",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_a_1/nest_a_2.rs",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_a_1/mod.rs",
+    "rust-notes/managing/crates/src/bin/main_two.rs",
+    "rust-notes/managing/crates/src/bin/main.rs",
+    "rust-notes/managing/modules/src/garden/vegies.rs",
+    "rust-notes/managing/using/src/main.rs",
+    "rust-notes/managing/re-exporting-multi-file/src/nest_c_1",
     "MATH/Discrete/Discrete-Structures/Sets.md",
-    "PDFs/MATH/LV9-Analysis/2-Analysis-2-Tao.pdf",
-    "PDFs/MATH/LV9-Analysis/1-Analysis-1-Tao.pdf",
-    "PDFs/MATH/LV9-Analysis",
-    "PDFs/MATH/LV8-Complex-Variables/1-Fundamentals-Of-Complex-Variables-And-Applications.pdf",
-    "PDFs/MATH/LV8-Complex-Variables",
-    "PDFs/MATH/LV7-Statistics/2-Probability.pdf",
-    "PDFs/MATH/LV7-Statistics/1-Statistics.pdf",
-    "PDFs/MATH/LV7-Statistics",
-    "PDFs/MATH/LV6-Linear-Algebra/2-Linear-Algebra.pdf",
-    "PDFs/MATH/LV6-Linear-Algebra/1-Elementary-Linear-Algebra.pdf",
+    "rust/sandbox/decimal_float/target/debug/build/rust_decimal-e5b0a21d12bcd0b5/out/README-lib.md",
+    "MATH/Discrete/What-Is-Discrete-Math.md",
     "MATH/Discrete/Discrete-Structures/What-are-Discrete-Structures.md",
     "MATH/What-is-Math.md",
     "MATH/Discrete/Structures.md",
