@@ -1,4 +1,7 @@
 {
   "vimMode": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "tabSize": 6,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": false
 }

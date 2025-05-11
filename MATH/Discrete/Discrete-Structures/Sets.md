@@ -27,4 +27,4 @@ The set $A$ is subset of $B$ if and only if every element of $A$ is also element
 ## Tuple & Ordered pair
 To define ordered pair using sets for example $a$ and $b$ we would have to write it as $\{\{a\}, \{a, b\}\}$. and this is because in sets order doesn't matter e.g.: $\{1,2\} = \{2,1\}$ but using previous set if $a \not= b$ then $\{a\}$ and $\{a,b\}$ are two different sets which means even if the order doesn't matter the two elements are two different sets. More simply that set notation can be written as: $(a,b)$ ordered pair written in this way is named **Tuple**. $$(x_1,x_2,...,x_n) = (y_1,y_2,...,y_n) \iff x_1 = y_1, x_2 = y_2, ... , x_n = y_n$$
 ## Cartesian product
-**Cartesian product** - is the set of all $n$ ordered n-tuples where $a\in A\ and\ b\in B$. Using the set-bulder notation: $$A\times B = \{(a,b|a\in A\ and \ b\in B)\}$$We can denote *Cartesian product* as $A\times B$.
+**Cartesian product** - is the set of all $n$ ordered n-tuples where $a\in A\ and\ b\in B$. Using the set-bulder notation: $$A\times B = \{(a,b|a\in A\ and \ b\in B)\}$$We can denote *Cartesian product* as $A\times B$. 

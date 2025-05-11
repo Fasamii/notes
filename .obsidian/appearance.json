@@ -3,5 +3,6 @@
   "interfaceFontFamily": "fira code",
   "textFontFamily": "fira code",
   "monospaceFontFamily": "fira code",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "nativeMenus": false
 }
