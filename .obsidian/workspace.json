@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "82d9f10fd21077ce",
+        "id": "cba08c637dfe6b49",
         "type": "tabs",
         "children": [
           {
-            "id": "dddc929347c83639",
+            "id": "08e1e6bd9bf5e1f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,7 +33,7 @@
       {
         "id": "6f65189be53a03d8",
         "type": "tabs",
-        "dimension": 72.99703264094956,
+        "dimension": 64.09495548961425,
         "children": [
           {
             "id": "ed43f464216c5f7e",
@@ -80,7 +80,7 @@
       {
         "id": "8cfee8a36a574109",
         "type": "tabs",
-        "dimension": 27.002967359050444,
+        "dimension": 35.90504451038576,
         "children": [
           {
             "id": "e10e3c772fba9eee",
@@ -98,8 +98,8 @@
             "state": {
               "type": "3d-graph-view-global",
               "state": {},
-              "icon": "orbit",
-              "title": "Global 3D Graph"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -194,12 +194,20 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "dddc929347c83639",
+  "active": "08e1e6bd9bf5e1f8",
   "lastOpenFiles": [
+    "MATH/Number-theory/Number-systems/Integers.md",
     "MATH/Discrete/Discrete-Structures/Sets.md",
     "MATH/Discrete/What-Is-Discrete-Math.md",
-    "Resources/WEB/Linux-Graphics.md",
+    "MATH/Number-theory/Number-systems/Natural-numbers.md",
+    "MATH/Number-theory/Number-systems/Rational-numbers.md",
+    "MATH/Number-theory/Number-systems/Real-numbers.md",
+    "Pasted image 20250515195902.png",
+    "MATH/Discrete/Discrete-Structures/What-are-Discrete-Structures.md",
+    "MATH/Number-theory/Number-systems",
+    "MATH/Number-theory",
     "Resources/WEB/Rust.md",
+    "Resources/WEB/Linux-Graphics.md",
     "Resources/WEB/Linux-Graphics",
     "2025-05-10.md",
     "Resources/WEB/Vulkan.md",
@@ -214,10 +222,7 @@
     "Resources/PDFs/MATH/LV8-Complex-Variables/1-Fundamentals-Of-Complex-Variables-And-Applications.pdf",
     "Resources/PDFs/MATH/LV7-Statistics/2-Probability.pdf",
     "Resources/PDFs/MATH/LV7-Statistics/1-Statistics.pdf",
-    "Resources/PDFs/MATH/LV6-Linear-Algebra/2-Linear-Algebra.pdf",
-    "Resources/PDFs/MATH/LV6-Linear-Algebra/1-Elementary-Linear-Algebra.pdf",
     "rust/sandbox/decimal_float/target/debug/build/rust_decimal-e5b0a21d12bcd0b5/out/README-lib.md",
-    "MATH/Discrete/Discrete-Structures/What-are-Discrete-Structures.md",
     "MATH/What-is-Math.md",
     "MATH/Discrete/Structures.md",
     "Logic.md",

@@ -1,8 +1,8 @@
 {
   "savedSettings": [
     {
-      "id": "3cf9f8f9-8538-4e58-9a0a-4d4f0384305c",
       "title": "New",
+      "id": "3cf9f8f9-8538-4e58-9a0a-4d4f0384305c",
       "setting": {
         "filter": {
           "searchQuery": "",
@@ -68,7 +68,7 @@
       "linkThickness": 2,
       "linkDistance": 100,
       "nodeRepulsion": 2800,
-      "distanceFromFocal": 300,
+      "distanceFromFocal": 280,
       "nodeHoverColor": "#ff0000",
       "nodeHoverNeighbourColor": "#00ff00",
       "linkHoverColor": "#00ff40",
