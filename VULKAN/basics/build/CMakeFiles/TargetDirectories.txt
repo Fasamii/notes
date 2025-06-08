@@ -1,3 +1,0 @@
-/home/wasabi/workspace/notes/VULKAN/basics/build/CMakeFiles/example.dir
-/home/wasabi/workspace/notes/VULKAN/basics/build/CMakeFiles/edit_cache.dir
-/home/wasabi/workspace/notes/VULKAN/basics/build/CMakeFiles/rebuild_cache.dir
