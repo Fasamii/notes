@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "color": "4",
+      "fromNode": "f8ef42fc263d5867",
+      "fromSide": "right",
+      "id": "02e700d5d4c9cb87",
+      "styleAttributes": {
+        "arrow": "thin-triangle",
+        "path": "dotted",
+        "pathfindingMethod": null
+      },
+      "toNode": "1b79e183eeee9a56",
+      "toSide": "left"
+    },
+    {
+      "color": "4",
+      "fromNode": "c90978dd87f3d48a",
+      "fromSide": "right",
+      "id": "53419e663b0374c5",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "toNode": "1b79e183eeee9a56",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "02d61bbe09f1790a",
+      "fromSide": "left",
+      "id": "75f79f7ca60a2a2e",
+      "label": "SAME AS\nOR LESS",
+      "styleAttributes": {
+        "path": null,
+        "pathfindingMethod": null
+      },
+      "toNode": "b3d3c8481dec87a2",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "#8000ff",
+      "height": 500,
+      "id": "9f4db019041da08c",
+      "label": "String in memory",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 740,
+      "x": -460,
+      "y": -300
+    },
+    {
+      "color": "#7300ff",
+      "height": 340,
+      "id": "c92fcca961f82a43",
+      "label": "String Slice",
+      "type": "group",
+      "width": 350,
+      "x": -460,
+      "y": 280
+    },
+    {
+      "color": "6",
+      "height": 380,
+      "id": "5d772fc9aed70d3e",
+      "styleAttributes": {
+      },
+      "text": "STACK",
+      "type": "text",
+      "width": 310,
+      "x": -440,
+      "y": -200
+    },
+    {
+      "color": "3",
+      "height": 300,
+      "id": "31f5a70e14e096cc",
+      "styleAttributes": {
+      },
+      "text": "STRING",
+      "type": "text",
+      "width": 280,
+      "x": -425,
+      "y": -140
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "f8ef42fc263d5867",
+      "styleAttributes": {
+      },
+      "text": "Ptr",
+      "type": "text",
+      "width": 250,
+      "x": -410,
+      "y": -80
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "b3d3c8481dec87a2",
+      "styleAttributes": {
+      },
+      "text": "Size",
+      "type": "text",
+      "width": 250,
+      "x": -410,
+      "y": 0
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "b301c832c4bce037",
+      "styleAttributes": {
+      },
+      "text": "capacity",
+      "type": "text",
+      "width": 250,
+      "x": -410,
+      "y": 80
+    },
+    {
+      "color": "2",
+      "height": 460,
+      "id": "eb5c960c21012fdd",
+      "styleAttributes": {
+      },
+      "text": "HEAP",
+      "type": "text",
+      "width": 280,
+      "x": -20,
+      "y": -280
+    },
+    {
+      "color": "3",
+      "height": 380,
+      "id": "1b79e183eeee9a56",
+      "styleAttributes": {
+      },
+      "text": "Example string\nstored as Vector\nof bytes e.g.:\n\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\\[4b\\]\n*one char can be fragmented into more than one byte thanks to UTF-8 encodeing*",
+      "type": "text",
+      "width": 250,
+      "x": -5,
+      "y": -220
+    },
+    {
+      "color": "6",
+      "height": 300,
+      "id": "4ade7e2332e6bb19",
+      "styleAttributes": {
+      },
+      "text": "STACK",
+      "type": "text",
+      "width": 310,
+      "x": -440,
+      "y": 300
+    },
+    {
+      "color": "3",
+      "height": 220,
+      "id": "2967772124efe5f8",
+      "styleAttributes": {
+      },
+      "text": "STRING",
+      "type": "text",
+      "width": 280,
+      "x": -425,
+      "y": 360
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "02d61bbe09f1790a",
+      "styleAttributes": {
+      },
+      "text": "Size",
+      "type": "text",
+      "width": 250,
+      "x": -410,
+      "y": 500
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "c90978dd87f3d48a",
+      "styleAttributes": {
+      },
+      "text": "Ptr",
+      "type": "text",
+      "width": 250,
+      "x": -410,
+      "y": 420
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[package]
+name = "errors"
+version = "0.1.0"
+edition = "2024"
+
+# to make rustc compile code without "panic!" macro unwinding logic you can use panic = "abort"
+# this will overwrite default behavior and result in smaller binary
+[profile.release]
+# panic = "abort"
+
+[dependencies]

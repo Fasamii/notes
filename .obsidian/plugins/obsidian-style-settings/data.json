@@ -35,7 +35,7 @@
   "minimal-style@@graph-line@@dark": "#0D3E33",
   "minimal-style@@graph-node@@dark": "#00F33D",
   "minimal-style@@graph-node-tag@@dark": "#62EDD5",
-  "minimal-style@@graph-node-unresolved@@dark": "#BB005E",
+  "minimal-style@@graph-node-unresolved@@dark": "#C53F82",
   "minimal-style@@graph-node-focused@@dark": "#00F33D",
   "minimal-style@@graph-node-attachment@@dark": "#62EDD5",
   "minimal-style@@pdf-page-style": "pdf-shadows-on",

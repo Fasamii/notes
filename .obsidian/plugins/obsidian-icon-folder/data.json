@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiChartDots3",
+      "LiGlobe",
+      "FarFilePdf",
+      "TiCloudNetwork",
+      "SiTorbrowser",
+      "FabConnectdevelop",
       "LiBoxes",
       "LiCpu",
       "LiListTodo",
-      "FabRust",
-      "TiBrandRust",
-      "SiRust",
-      "TiBaselineDensitySmall",
-      "TiList",
-      "FarFilePdf",
-      "FasFilePdf"
+      "FabRust"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -42,5 +42,7 @@
   "ASM": "LiCpu",
   "MATH": "LiCalculator",
   "RUST": "SiRust",
-  "Resources": "LiBoxes"
+  "Resources": "LiBoxes",
+  "Resources/WEB": "LiGlobe",
+  "Resources/PDFs": "FarFilePdf"
 }
