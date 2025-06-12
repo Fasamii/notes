@@ -78,8 +78,22 @@ fn main() {
                 panic!();
             }
         };
+
+        // the thing that is inside Err() variant from File::open() or create() is io::Error type
+        // it is a struct provided by std library
+        // we can call .kind() on that struct to get io::ErrorKind this is enum provided by std
+        // library and contains various variants of errors that might result from io operation
         println!("file : {file:?}");
     }
+
+    // the Result enum has many helper methods defined on it.
+    //
+    // e.g.: the .unwrap() method is a shortcut method implemented just like match expression which
+    // returns value on Ok(T) and panics on Err(err)
+    //
+    // and the .expect() method which works very similarly to .unwrap() but lets us chose the error
+    // message
+
 }
 
 fn log(msg: &str) {

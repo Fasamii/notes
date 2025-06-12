@@ -98,15 +98,15 @@
             "state": {
               "type": "3d-graph-view-global",
               "state": {},
-              "icon": "orbit",
-              "title": "Global 3D Graph"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 312.5
   },
   "right": {
     "id": "1896dc5c0462c2ee",
@@ -191,8 +191,8 @@
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "3d-graph-new:Global 3D Graph": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "3d-graph-new:Global 3D Graph": false
     }
   },
   "active": "ed43f464216c5f7e",
